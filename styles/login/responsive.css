@@ -1,0 +1,85 @@
+.container{
+    max-width: 85%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width:1200px){
+    .container{
+        max-width: 1140px;
+     }
+    .form-left__title{
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 960px;
+     }
+     .log-reg__form{
+        background: url("images/login-images-icons/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .form-login__holder{
+        margin: 0;
+    }
+    .form-label{
+        color: var(--carrot);
+    }
+    .form-btn, .switch-btn{
+        background-color: #212121;
+    }
+    .active{
+        background-color: var(--carrot);
+        color: #212121;
+    }
+    .form-left{
+        display: none;
+    }
+    .form-right{
+      width: 100%;
+      background-color: #212121;
+      margin-top: -30px;
+      border: none;
+      border-top-left-radius: 5rem;
+      border-bottom-right-radius: 5rem;
+      border-right: 2px solid var(--carrot);
+      border-left: 2px solid var(--carrot);
+    }
+    .form-wrapper{
+        margin: 5rem 0;
+    }
+    .login-form{
+        height: 450px;
+        justify-content: center;
+    }
+    .form-left__title{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        max-width: 720px;
+     }
+     .warning-modal{
+        justify-content: space-around;
+     }
+     .warning-modal__img{
+        width: 15rem;
+        height: 15rem;
+     }
+}
+
+@media (max-width:576px){
+    .container{
+        max-width: 100%;
+     }
+}
