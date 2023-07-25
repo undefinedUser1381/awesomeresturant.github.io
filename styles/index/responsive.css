@@ -245,25 +245,35 @@
       font-size: 1.5rem;
     }
     .product__btn{
-      width: 40%;
+      width: 35%;
       padding: 0;
       height: 3rem;
     }
     .product-comments__box{
-      width: 50%;
+      width: 60%;
     }
     .email__box-title::after {
-      left: 24%;
+      left: 32%;
     }
     .basket__title{
     font-size: 1.5rem;
     }
-}
-
-@media (max-width:420px){
-   .bottom-nav__details:nth-child(3){
+    .message__box{
+      width: 75%;
+    }
+    .client-box__contents{
+       width: 70%;
+    }
+    .footer__left-text{
+      line-height: 2rem;
+    }
+    .bottom-nav__details:nth-child(3){
       top: -4.5rem;
       left: 40%;
-      padding: 1.5rem;
+      padding: 1.8rem;
    }
+   .bottom-nav__holder{
+    padding: 1.8rem;
+ }
 }
+
