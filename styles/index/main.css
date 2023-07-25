@@ -467,7 +467,7 @@ a{
 /* Basket Section */
 .basket__section{
   position:fixed;
-  z-index: 99;
+  z-index: 100;
   top: 0;
   right: -50rem;
   bottom: 0;
